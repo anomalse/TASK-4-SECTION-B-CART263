@@ -4,7 +4,7 @@ class Bush {
         this.x = x;
         this.y = y;
         this.size = size;
-        this.bushImg = "../assets/images/bush.svg";
+        this.bushImg = "assets/images/bush.svg";
     }
 
     renderBush() {
