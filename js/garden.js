@@ -119,7 +119,7 @@ function setupGarden(){
     // Render each squirrel in the array of squirrels
     garden.squirrels[i].renderSquirrel();
     // Animate each squirrel in the array of squirrels
-    garden.squirrels[i].animateSquirrel();
+   // garden.squirrels[i].animateSquirrel();
   }
   
 
