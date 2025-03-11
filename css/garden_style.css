@@ -1,0 +1,79 @@
+body{
+    padding:0;
+    margin:0;
+
+  }
+.sky{
+    width: 100vw;
+    height:280px;
+    position:relative;
+    padding:0;
+    margin:0;
+}
+.grass{
+    width: 100vw;
+    height:calc(100vh - 280px);
+    position:relative;
+    padding:0;
+    margin:0;
+}
+
+.sun{
+    width: 100px;
+    height: 100px;
+    border-radius:50px;
+    position:absolute;
+    left:10px;
+    top:10px;
+}
+
+/* flower style */
+.flower{
+    padding:0;
+    margin:0;
+    position:absolute;
+}
+.petal{
+    padding:0;
+    margin:0;
+    position:absolute;
+    border-style:solid;
+}
+.squirrel{
+    padding:0;
+    margin:0;
+    position:absolute;
+}
+.bee {
+    position: absolute;
+    z-index: 400;
+    filter: hue-rotate(0deg);
+}
+
+/*flower e style*/
+
+.flower_e {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flower_e .petal {
+    position: absolute;
+    box-shadow: inset 0px 0px 5px rgb(211, 26, 128);
+}
+
+
+/* Bee style with stripes */
+.beeR {
+    position: absolute;
+    background: linear-gradient(90deg, yellow 30%, black 30%, black 40%, yellow 40%, yellow 70%, black 70%);
+    border: 2px solid black;
+    /* Outline */
+    border-radius: 50%;
+    /* Circular shape */
+    width: 20px;
+    height: 20px;
+    transition: transform 0.1s linear;
+}
+
